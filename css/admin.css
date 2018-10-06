@@ -1,0 +1,301 @@
+html{
+ height: 100%;
+}
+body {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+/*header*/
+.site-header {
+background: #4a423f;
+color: #e8dbd3;
+padding: 20px;
+display: block;
+}
+.site-header h1 {
+margin: 0;
+font-size: 20px;
+text-transform: uppercase;
+display: inline-block;
+}
+.header-menu {
+display: inline-block;
+margin-right:70px;
+float: right;
+}
+.header-menu ul {
+padding: 0;
+margin: 0;
+}
+.header-menu ul li {
+list-style: none;
+display: inline;
+}
+.header-menu ul li a{
+text-decoration: none;
+color: #c8dbd3;
+}
+.header-menu ul li a:hover{
+cursor: pointer;
+color: #f05f40;
+}
+/*MENU*/
+.mane-menu {
+display: block;
+background: #c8dbd3;
+color: #e8dbd3;
+box-shadow: 0 2px 1px #c8dbd3;
+width: 100%;
+}
+.mane-menu ul {
+padding: 0;
+margin: 0;
+}
+.mane-menu ul li {
+text-align: center;
+list-style: none;
+display:inline-block;
+}
+.mane-menu ul li a {
+text-decoration: none;
+background: #c8dbd3;
+color:  #121910;
+padding: 10px;
+display: block;
+width: 150px;
+border-right: 1px solid white;
+transition: 0.4s all;
+}
+.mane-menu ul li a:hover{
+background: #b3b8b2;
+cursor: pointer;
+color: #1974d2;
+}
+/*FOOTER*/
+.site-footer {
+margin: 0;
+padding: 0;
+background-color: #4a423f;
+color: #FFF;
+box-shadow: 0 2px 1px #756969;
+position: absolute;
+bottom: 0px;
+width: 100%;
+}
+.company {
+text-align: center;
+font-weight: bold;
+color: #e8dbd3;
+padding: 20px; 
+}
+.myclass1 {
+font-size: 30px;
+text-align: center;
+margin-top: 20px;
+background: #2d2a28;
+width: 100%;
+padding: 0;
+margin: 0;
+color: white;
+}
+
+
+
+
+/*BLOG*/
+/*контейнер*/
+.conteiner {
+	padding: 0px;
+	margin: 0px;
+  width: 82%;
+  display:inline-block;
+}
+.conteiner1 {
+  padding: 0px;
+  margin: 0px;
+  width: 82%;
+  display:inline-block;
+}
+.del1{
+  padding: 20px;
+  display: inline-block;
+  width: 41%;
+
+}
+.del1 p  {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Arial;
+  color: black;
+}
+.del1  a {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Arial;
+  color: blue;
+}
+.del1 a:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.widget {
+  padding: 20px;
+  background: #2d2a28;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  height: 765px;
+  vertical-align: top;
+  width: 15%;
+}
+.widget h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  color:  white;
+}
+.widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 250px;
+}
+.widget li {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.widget li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.widget a {
+  text-decoration: none;
+  color:  white;
+  display: inline-block;
+}
+.widget li:before {
+  font-family: FontAwesome;
+  font-size: 20px;
+  vertical-align:bottom;
+  color: #dd3333; 
+  margin-right: 14px;
+}
+
+
+/*СТИЛИ ДЛЯ ФОРМЫ ОТПРАВКИ*/
+form { 
+  text-align: center;
+  width: 100%;
+
+}
+.form1 {
+  text-align: center;
+  width: 41%;
+  display: inline-block;
+  vertical-align: top;
+}
+form h1 { 
+  margin-bottom: 40px;
+}
+/* Стили текстового поля add */
+.textbox{
+  height:50px;
+  width:1500px;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px; 
+  padding:10px;
+  margin-bottom:30px;  
+}
+.message{
+    background: rgba(255, 255, 255, 0.4); 
+    width:1500px;
+    height: 200px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+    resize: none;
+    overflow: auto;
+}
+/* Базовые стили кнопки */
+.button{
+  height:50px;
+  width:1500px;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  background:#282b24;
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif;  
+  font-weight:400;
+  font-size: 16pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.button:hover{
+  background:#756969;
+}
+/* Стили текстового поля edte */
+.textbox1{
+  height:50px;
+  width:500px;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px; 
+  padding:10px;
+  margin-bottom:30px;  
+}
+.message1{
+    background: rgba(255, 255, 255, 0.4); 
+    width:500px;
+    height: 200px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+    resize: none;
+    overflow: auto;
+}
+/* Базовые стили кнопки */
+.button1{
+  height:50px;
+  width:500px;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  background:#282b24;
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif;  
+  font-weight:400;
+  font-size: 16pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.button1:hover{
+  background:#756969;
+}

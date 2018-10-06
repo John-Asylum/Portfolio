@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    /*z-index: 100;*/
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+/*TOPIC*/
+.content {
+    text-align: center;
+    margin:0 auto;
+    width: 50%;
+    background-color: #f2f2f2
+}
+.topic {
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.rigthsec {
+    padding: 0 0 6px 0 !important;
+    width: 41%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+}
+.rigthsec hr{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 0;
+    border-top: 2px solid #444444;
+}
+.leftsec {
+    padding: 0 0 6px 0 !important;
+    width: 41%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+}
+.leftsec hr{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 0;
+    border-top: 2px solid #444444;
+}
+.textsec {
+    padding: 0 .25em;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 11%;
+}
+/*CONTENT*/
+.messages {
+    vertical-align: top;
+    word-break: break-all;
+    display: inline-block;
+    width: 43%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #d6c3c3;
+    margin: 10px;
+}
+.messages h1 {
+
+}
+/*FOOTER*/
+.site-footer {
+margin: 0;
+padding: 0;
+background-color: #4a423f;
+color: #FFF;
+box-shadow: 0 2px 1px #756969;
+position: absolute;
+bottom: 0px;
+width: 100%;
+}
+.company {
+text-align: center;
+font-weight: bold;
+color: #e8dbd3;
+padding: 20px; 
+}

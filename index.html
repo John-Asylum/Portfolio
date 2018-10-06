@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>John_asylum</title>
+	<link rel="stylesheet" href="../css/styl.css" type="text/css">
+</head>
+<body>
+	<header>
+		<button onclick="document.querySelector('#flip-toggle').classList.toggle('hover');   " class="avto-button">АВТОРИЗАЦИЯ</button>
+	</header>
+	<div class="flip-container" id="flip-toggle">
+			<div class="conteiner">
+				<div class="front">
+					<img src="../img/men1.png">
+					<h1>John_Asylum</h1>
+					<p>Личный сайт web-разработчика</p>
+						<nav class="mane-menu">
+							<ul>
+								<li class="menu1">
+									<a href="#">О себе</a>
+								</li>
+								<li class="menu2">
+									<a href="#">Мои работы</a>
+								</li>
+								<li class="menu3">
+									<a href="../views/blog.php">Блог</a>
+								</li>
+							</ul>
+						</nav>
+				</div>
+				<div class="back">
+					<h1>- АВТОРИЗАЦИЯ -</h1>
+					<div class="entry"> <input type="login" name="username" placeholder="Введите логин" id="first"> </div>
+					<div class="entry"> <input type="password" name="password" placeholder="Введите пароль" id="second"> </div>
+					<button class="entry-submit" type="submit" name="submit">Войти</button>
+				</div>
+
+</body>
+<script src="script/admin1.js"></script>
+</html>
